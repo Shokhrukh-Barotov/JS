@@ -23,3 +23,22 @@ const reverseString = number => {
 }  
 
 console.log(reverseString(1120))
+
+const obj = {
+    ism:"Name",
+    familiya:"Surname",
+    yosh:27
+}
+
+console.log(obj)
+
+const word = "opkspjd"
+
+switch (word) {
+    case 0:
+        console.log("true")
+        break;
+
+    default:
+        break;
+}
