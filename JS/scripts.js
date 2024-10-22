@@ -12,17 +12,17 @@ const factorial = n => {
 
 }
 
-let n = 50
+let n = 5;
 
-console.log(factorial(n))
+console.log(factorial(n));
 
 const reverseString = number => {
-    const numberStr = String(number)
-    const reversedStr = numberStr.split("").reverse().join("")
-    return reversedStr
+    const numberStr = String(number);
+    const reversedStr = numberStr.split("").reverse().join("");
+    return reversedStr;
 }  
 
-console.log(reverseString(1120))
+console.log(reverseString(4560));
 
 const obj = {
     ism:"Name",
@@ -30,15 +30,4 @@ const obj = {
     yosh:27
 }
 
-console.log(obj)
-
-const word = "opkspjd"
-
-switch (word) {
-    case 0:
-        console.log("true")
-        break;
-
-    default:
-        break;
-}
+console.log(obj);
